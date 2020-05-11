@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: demo-topic-stream
+server:
+  port: 8082
